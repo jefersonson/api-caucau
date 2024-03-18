@@ -1,0 +1,125 @@
+   @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+   img {
+    width: 180px; 
+    height: 130px; 
+}
+   h1, h2, h3 {
+    margin: 50;
+    padding: 0;
+    color: #0077cc;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1B2029;
+    
+}
+
+header {
+    background-color: #0077cc;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: #0077cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #585a5c;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0077cc;
+}
+
+footer {
+    margin-top: 20px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+.navcor {
+  
+  text-align: center;
+  color: white;
+}
+
+.homebar {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.homebar a {
+  color: #0077cc;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin: 0 10px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+
+  img {
+    width: 80px; 
+    height: auto;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+  #logo {
+    width: 130px;
+    height: auto;
+    position: absolute;
+    top: -6px;
+    left: 10px;
+  }
+  body {
+    background-image: url('../IMG/degrade-de-fundo-azul_23-2149337033.avif');
+    background-repeat: no-repeat;
+    background-size: cover; /* Isso ajuda a cobrir todo o elemento body */
+}
